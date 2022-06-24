@@ -1,8 +1,11 @@
 let loginButton = document.querySelector('#loginButton');
-let userName = document.querySelector('#userName');
+let userName = document.querySelector('#userName')
 let userEmail = document.querySelector('#userEmail');
 
 const clickButton = ()=>{
+    loginButton = document.querySelector('#loginButton');
+    userName = document.querySelector('#userName');
+    userEmail = document.querySelector('#userEmail');
     axios({
         method: 'get',
         url: 'https://jsonplaceholder.typicode.com/users'
