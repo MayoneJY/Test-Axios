@@ -22,16 +22,6 @@ const clickButton = ()=>{
                 successLogin(response.data[0].id, response.data[0].name);
             }
             else alert("이름 또는 이메일이 일치하지 않습니다.");
-            // response.data.forEach(data => {
-            //     if(data.username === userName.value && data.email === userEmail.value){
-            //         const loginForm = document.querySelector('#loginForm');
-            //         loginCheck = true;
-            //         loginForm.remove();
-            //         successLogin(data.id, data.name);
-            //     }
-            // });
-            // 
-            // if(!loginCheck) alert("이름 또는 이메일이 일치하지 않습니다.");
         });
 };
 
