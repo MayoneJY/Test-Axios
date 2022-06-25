@@ -1,10 +1,9 @@
-let loginButton = document.querySelector('#loginButton');
-let userName = document.querySelector('#userName')
-let userEmail = document.querySelector('#userEmail');
 const main = document.querySelector('#main');
+let loginButton = document.querySelector('#loginButton');
+let userName;
+let userEmail;
 
 const clickButton = ()=>{
-    loginButton = document.querySelector('#loginButton');
     userName = document.querySelector('#userName');
     userEmail = document.querySelector('#userEmail');
     axios({
